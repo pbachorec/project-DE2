@@ -15,11 +15,11 @@
 #define JOYSTICK_ADC_CHANNEL 0    // ADC channel for the joystick
 #define ACS712_CHANNEL 1          // ADC channel for the ACS712 sensor
 #define VOLTAGE_ADC_CHANNEL 2     // ADC channel for voltage measurement
-#define ACS712_SENSITIVITY 0.185  // Sensitivity in V/A
 
 // ACS712 sensor settings
 #define ACS712_OFFSET 2.5         // Offset in volts
 #define ACS712_REF_VOLTAGE 5.0    // Reference voltage for the ADC in volts
+#define ACS712_SENSITIVITY 0.185  // Sensitivity in V/A
 
 #define SERVO_PIN PB1             // Pin for the servo
 
