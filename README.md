@@ -40,6 +40,11 @@ In this project, we used following resources:
 # Software description
 Put flowchats/state diagrams of your algorithm(s) and direct links to source files in PlatformIO src or lib folders. Present the libraries you used in the project.
 
+https://github.com/pbachorec/project-DE2/tree/main/DE2_Project_final/include
+
+https://github.com/pbachorec/project-DE2/tree/main/DE2_Project_final/lib
+
+https://github.com/pbachorec/project-DE2/tree/main/DE2_Project_final/src
 
 * Joystick
 
