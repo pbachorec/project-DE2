@@ -43,4 +43,4 @@ In this project, we used following resources:
 
 * Resistor 
 
-LED diode
+* LED diode
