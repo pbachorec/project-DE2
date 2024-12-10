@@ -37,6 +37,10 @@ In this project, we used following resources:
 
 * Servo-motor
 
+# Software description
+
+
+
 * Joystick
 
 * Breadboard
