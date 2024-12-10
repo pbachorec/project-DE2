@@ -5,8 +5,11 @@ Topic: Solar panel monitoring and optimization
 
 # Team members
  Ondřej Pulpit (responsible for programming C) 
+ 
  Patrik Bachorec (responsible for GitHub, programming C)
+ 
  Petr Horáček (responsible for GitHub, programming C)
+ 
  Jan Dedera (responsible for programming C, circuit design)
 
 # Description
