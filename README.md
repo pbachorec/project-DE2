@@ -38,7 +38,7 @@ In this project, we used following resources:
 * Servo-motor
 
 # Software description
-
+Put flowchats/state diagrams of your algorithm(s) and direct links to source files in PlatformIO src or lib folders. Present the libraries you used in the project.
 
 
 * Joystick
