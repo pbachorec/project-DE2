@@ -29,18 +29,18 @@ In this project, we used following resources:
 
 * Solar panel
 
-Current sensor
+* Current sensor
 
-I2C OLED display
+* I2C OLED display
 
-Ardruino uno
+* Ardruino uno
 
-Servo-motor
+* Servo-motor
 
-Joystick
+* Joystick
 
-Breadboard
+* Breadboard
 
-Resistor 
+* Resistor 
 
 LED diode
