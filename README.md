@@ -27,7 +27,7 @@ Describe your implementation and include block or circuit diagram
 ![circuit_image (4)](https://github.com/user-attachments/assets/138e0fb0-c242-43c7-8115-bb602196505d)
 In this project, we used following resources:
 
-Solar panel
+*Solar panel
 
 Current sensor
 
