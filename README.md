@@ -25,3 +25,22 @@ The hardware setup for this project is built around the Arduino Uno platform. It
 Describe your implementation and include block or circuit diagram
 
 ![circuit_image (4)](https://github.com/user-attachments/assets/138e0fb0-c242-43c7-8115-bb602196505d)
+In this project, we used following resources:
+
+Solar panel
+
+Current sensor
+
+I2C OLED display
+
+Ardruino uno
+
+Servo-motor
+
+Joystick
+
+Breadboard
+
+Resistor 
+
+LED diode
