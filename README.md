@@ -22,4 +22,6 @@ The project’s key features include the ability to monitor data on solar radiat
 # Hardware description
 The hardware setup for this project is built around the Arduino Uno platform. It processes sensor data, controls the servo motor, and communicates with the OLED display. The components are connected using a breadboard for easy prototyping and wiring. The solar panel is used to simulate energy generation and provides real-time data for monitoring and analysis. Its position is adjusted by a servo motor. An OLED display is integrated into the system to present data, including current, voltage, and the panel's orientation. The display uses the I2C communication protocol. To measure energy consumption or output, a current sensor (ACS712) is employed. This sensor provides real-time current readings, which are processed by the Arduino for monitoring and optimization purposes. A joystick is included in the system to enable manual control of the panel's position if needed. 
 
+Describe your implementation and include block or circuit diagram
 
+![circuit_image (4)](https://github.com/user-attachments/assets/138e0fb0-c242-43c7-8115-bb602196505d)
