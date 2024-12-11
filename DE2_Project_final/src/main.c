@@ -37,12 +37,11 @@ int main(void) {
 
     // Main loop
     while (1) {
-        // Control the servo using the joystick
         
-
             oled_gotoxy(0, 0);
             oled_charMode(DOUBLESIZE);
             oled_puts("Project");
+        
             // Current
             uint16_t current_mA = acs712_read_current();
             oled_gotoxy(0, 4);
@@ -52,7 +51,6 @@ int main(void) {
 
             // Servo angle
             servo_control_from_joystick(&current_angle, JOYSTICK_ADC_CHANNEL);
-
             oled_gotoxy(0, 6);
             itoa(current_angle,buffer,10);
             oled_puts(buffer);
