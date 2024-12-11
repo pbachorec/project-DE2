@@ -49,6 +49,6 @@ In this project, we used following resources:
 For OLED display were used libraries from this course 
 https://github.com/tomas-fryza/avr-course/tree/master/lab6-i2c#part4
 
-For analog-digital converison was used and mdofied code from this site 
+For analog-digital converison was used and modified code from this site 
 https://controllerstech.com/avr-tutorial-5-how-to-use-adc/?fbclid=IwZXh0bgNhZW0CMTEAAR27_foWSF4OlkPb-ShHUU9OzTmkm-_3d9HVtNByBWgLn7uGfFMeP0cDFrw_aem_m_QVIuPIvK1ps0oYTS7A0g
 
