@@ -44,6 +44,41 @@ In this project, we used following resources:
 * Resistor 
 
 * LED diode
+
+```plaintext
+DE2_Project       
+├── include         
+├── lib          
+│   ├── acs712
+│   │   ├── acs712.c
+│   │   └── acs712.h
+│   ├── adc
+│   │   ├── adc.c
+│   │   └── adc.h
+│   ├── measurement
+│   │   ├── measurement.c
+│   │   └── measurement.h
+│   ├── oled        
+│   │   ├── oled.c
+│   │   ├── oled.h
+│   │   └── font.h
+│   ├── servo
+│   │   ├── servo.c
+│   │   └── servo.h
+│   ├── timer
+│   │   ├── timer.c
+│   │   └── timer.h
+│   ├── twi           
+│   │   ├── twi.c
+│   │   └── twi.h
+│   ├── uart           
+│   │   ├── uart.c
+│   │   └── uart.h
+├── src            
+│   └── main.c
+├── test          
+└── platformio.ini
+```
   
 # References
 For OLED display were used libraries from this course 
