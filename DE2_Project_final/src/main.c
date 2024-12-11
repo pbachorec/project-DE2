@@ -6,11 +6,6 @@
 #include <stdio.h>
 #include "timer.h"
 
-// Definition of the voltage divider for measuring 6V with a maximum of 5V on the ADC
-//#define R1 10000.0  // Upper resistor of the divider (10 kOhm)
-//#define R2 1000.0   // Lower resistor of the divider (2 kOhm)
-//#define VOLTAGE_DIVIDER_RATIO ((R1 + R2) / R2) // Divider ratio
-
 // ADC channels
 #define JOYSTICK_ADC_CHANNEL 0    // ADC channel for the joystick
 #define ACS712_CHANNEL 1          // ADC channel for the ACS712 sensor
