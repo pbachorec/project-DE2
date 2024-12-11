@@ -45,11 +45,8 @@ In this project, we used following resources:
 
 * LED diode
   
-# Software description
-Put flowchats/state diagrams of your algorithm(s) and direct links to source files in PlatformIO src or lib folders. Present the libraries you used in the project.
+# References
+For OLED display were used libraries from this course 
+https://github.com/tomas-fryza/avr-course/tree/master/lab6-i2c#part4
 
-https://github.com/pbachorec/project-DE2/tree/main/DE2_Project_final/include
-
-https://github.com/pbachorec/project-DE2/tree/main/DE2_Project_final/lib
-
-https://github.com/pbachorec/project-DE2/tree/main/DE2_Project_final/src
+For current sensor
