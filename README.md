@@ -49,4 +49,3 @@ In this project, we used following resources:
 For OLED display were used libraries from this course 
 https://github.com/tomas-fryza/avr-course/tree/master/lab6-i2c#part4
 
-For current sensor
