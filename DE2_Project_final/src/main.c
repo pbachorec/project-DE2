@@ -20,8 +20,6 @@
 #define ACS712_OFFSET 2.5         // Offset in volts
 #define ACS712_REF_VOLTAGE 5.0    // Reference voltage for the ADC in volts
 
-//#define SERVO_PIN PB1             // Pin for the servo
-
 int main(void) {
 
     // Initialize the ADC
@@ -51,8 +49,9 @@ int main(void) {
             oled_charMode(DOUBLESIZE);
             oled_puts("Project");
             // Current
+            uint16_t current_mA = acs712_read_current();
             oled_gotoxy(0, 4);
-            itoa(acs712_read_current,buffer,10);
+            itoa(current_mA,buffer,10);
             oled_puts(buffer);
             oled_puts("mA");
 
