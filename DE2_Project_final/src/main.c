@@ -16,9 +16,9 @@
 #define ACS712_CHANNEL 1          // ADC channel for the ACS712 sensor
 
 // ACS712 sensor settings
-#define  ACS712_SENSITIVITY 185  // Sensitivity in V/A
-#define ACS712_OFFSET 2500         // Offset in volts
-#define ACS712_REF_VOLTAGE 5    // Reference voltage for the ADC in volts
+#define  ACS712_SENSITIVITY 0.185  // Sensitivity in V/A
+#define ACS712_OFFSET 2.5         // Offset in volts
+#define ACS712_REF_VOLTAGE 5.0    // Reference voltage for the ADC in volts
 
 //#define SERVO_PIN PB1             // Pin for the servo
 
