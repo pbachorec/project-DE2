@@ -45,6 +45,8 @@ In this project, we used following resources:
 
 * LED diode
 
+# Code structure
+
 ```plaintext
 DE2_Project       
 ├── include         
