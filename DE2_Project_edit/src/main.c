@@ -27,7 +27,8 @@ int main(void)
     char string_angle[10];
 
     printf("System initialized!\n");
-     //inicializace
+    
+    //inicializace displeje
     oled_init(OLED_DISP_ON); 
     oled_clrscr();
 
@@ -41,27 +42,21 @@ int main(void)
         float average_current = acs712_read_current(ACS712_CHANNEL, ACS712_SENSITIVITY);
         int current_mA = (int)(average_current); // Převod na int
         printf("Proud: %d mA\n", current_mA); // Výpis proudu v mA
-        //_delay_ms(500);
+        
 
         //Current
         oled_gotoxy(0,0);
-        //oled_charMode(DOUBLESIZE);
-        oled_puts("Current");
+        oled_puts("Current:");
         oled_gotoxy(1,1);
-        //oled_charMode(DOUBLESIZE);
         itoa(current_mA,string_current,10);
         oled_puts(string_current);
 
         //Angle
         oled_gotoxy(0,2);
-        //oled_charMode(DOUBLESIZE);
         oled_puts("Angle");
-
         oled_gotoxy(0,3);
-        //oled_charMode(DOUBLESIZE);
-        (current_angle,string_angle,10);
-        oled_puts(string_angle);
-        oled_gotoxy(0,4);  
+        itoa(current_angle,string_angle,10);
+        oled_puts(string_angle); 
         oled_display();
 
     }
