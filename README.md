@@ -6,11 +6,11 @@ Topic: Solar panel monitoring and optimization
 # Team members
  Ondřej Pulpit (responsible for programming C) 
  
- Patrik Bachorec (responsible for GitHub, programming C)
- 
  Petr Horáček (responsible for GitHub, programming C)
  
  Jan Dedera (responsible for programming C, circuit design)
+ 
+ Patrik Bachorec (responsible for GitHub, programming C)
 
 # Description
 This project focuses on the design and implementation of an embedded system for monitoring and optimizing the performance of solar panels. The goal is to create a device capable of collecting real-time data on solar radiation, energy output, and panel efficiency, displaying this data on an OLED screen, and enabling analysis to improve the overall performance of the solar system.
